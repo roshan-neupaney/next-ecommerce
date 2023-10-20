@@ -7,7 +7,7 @@ const ItemCard = (props) => {
   
   return (
     <>
-    <Link href={`products/${props.id}`}  >
+    <Link href={`products/${props?.id}`}  >
     <div className="itemCard m-4 flex w-68 h-64 flex-col bg-white   " >
         <div className="cardImage flex justify-center h-48 w-3/5 m-auto  ">
             <Image
